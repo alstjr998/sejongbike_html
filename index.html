@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>어울링</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index_responsive.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div id="leftBlank"></div>
+      <div id="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="">
+          <p>어울링</p>
+        </a>
+      </div>
+      <div id="menuButton">
+        <a href="#" class="toggleButton">
+          <img src="img/menuButton.png" alt="">
+        </a>
+      </div>
+      <nav id="nav" class="menu">
+        <ul>
+          <li id="li_menu1">
+            <div class="textBox">
+              <a href="https://www.sejongbike.kr/eouling/introduce">어울링이란</a>
+            </div>
+            <ul id="ul_menu1">
+              <li><a href="https://www.sejongbike.kr/eouling/introduce">어울링소개</a></li>
+              <li><a href="https://www.sejongbike.kr/eouling/service">서비스안내</a></li>
+              <li><a href="https://www.sejongbike.kr/eouling/duty">의무와 책임</a></li>
+              <li><a href="https://www.sejongbike.kr/eouling/insurance">시민자전거보험</a></li>
+              <li><a href="https://www.sejongbike.kr/usage/bikeUsage">자전거이용정보</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="textBox">
+              <a href="https://www.sejongbike.kr/stationSearch">대여소 조회</a>
+            </div>
+          </li>
+          <li id="li_menu2">
+            <div class="textBox">
+              <a href="https://www.sejongbike.kr/customer/notice">고객센터</a>
+            </div>
+            <ul id="ul_menu2">
+              <li><a href="https://www.sejongbike.kr/customer/notice">공지사항</a></li>
+              <li><a href="https://www.sejongbike.kr/customer/faq">자주하는질문</a></li>
+            </ul>
+          </li>
+          <li id="login">
+            <div class="textBox">
+              <a href="pclogin.html">로그인</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <script src="js/index_menubutton.js"></script>
+    </header> 
+
+    <div class="main">
+      <div id="carousel">
+        <div id="images">
+          <img src="img/slide1.jpg" alt="">
+          <img src="img/slide2.jpg" alt="">
+          <img src="img/slide3.jpg" alt="">
+          <img src="img/slide4.jpg" alt="">
+        </div>
+      </div>
+      <script src="js/index_carousel.js"></script>
+      
+      <div id="buttons">
+        <a href="https://youtu.be/GHsalN2r5D8" target="_blank">
+          <img src="img/button1.png" alt="">
+        </a>
+        <a href="https://www.sejongbike.kr/eouling/insurance" target="_blank">
+          <img src="img/button2.png" alt="">
+        </a>
+      </div>
+    </div>
+
+    <div class="contentBlock">
+      <div id="board">
+        <input type="radio" name="board" id="notice" checked>
+        <label for="notice">공지사항</label>
+        <input type="radio" name="board" id="question">
+        <label for="question">자주하는질문</label>
+        <div id="plusButton_notice" class="plusButton">
+          <a href="https://www.sejongbike.kr/customer/notice">+더보기</a>
+        </div>
+        <div id="plusButton_question" class="plusButton">
+          <a href="https://www.sejongbike.kr/customer/faq">+더보기</a>
+        </div>
+        <div id="noticetab" class="tabContent">
+          <ul>
+            <li><a href="https://www.sejongbike.kr/customer/notice/130">미납(초과)요금 납부 안내(전체 공지)</a></li>
+            <li><a href="https://www.sejongbike.kr/customer/notice/135">미납요금 미납부시 어울링 이용불가</a></li>
+            <li><a href="https://www.sejongbike.kr/customer/notice/134">[어울링 서비스 재개 안내]</a></li>
+            <li><a href="https://www.sejongbike.kr/customer/notice/133">커피쿠폰 증정 명단</a></li>
+            <li><a href="https://www.sejongbike.kr/customer/notice/132">태풍에 따른 운영중단</a></li>
+          </ul>
+        </div>
+       
+        <div id="questiontab" class="tabContent">
+          <ul>
+            <li><a href="">기본 대여시간 초과 시 추가요금은?</a></li>
+            <li><a href="">어울링 자전거 이용 비용은?</a></li>
+            <li><a href="">대여소는 무엇이며 어디에 있나요?</a></li>
+            <li><a href="">어울링 자전거란 무엇인가요?</a></li>
+            <li><a href="">어울링 초과요금은 어떻게 되나요? 휴대폰 소액결제를 차단해도 되나요?</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="gap"></div>
+      <div id="weather">
+        <div id="text">
+          <p id="title">오늘의 날씨</p>
+          <p id="today"></p>
+        </div>
+        <div id="plusButton_weather" class="plusButton">
+          <a href="https://weather.naver.com/">+더보기</a>
+        </div>
+        <a href="https://weather.naver.com/" target="_blank">
+          <img src="img/weather.png" alt="">
+        </a>
+      </div>
+      <script src="js/index_today.js"></script>
+    </div>
+
+    <footer>
+      <div id="sctc_logo">
+        <a href="https://www.sctc.kr/index/">
+          <img src="img/sctc_logo.png" alt="">
+        </a>
+      </div>
+      <div id="address">
+        <p>세종특별자치시 조치원읍 군청로 93 조치원청사 A동</p>
+        <p>사업자등록번호: 133-82-04414 , 대표자 도순구</p>
+        <p>고객센터: 1899-9161 <span>&lt;평일 7:00 ~ 22:00 │ 주말/공휴일 9:00 ~ 18:00&gt;</span></p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@media screen and (max-width : 660px){
+    .logopart{
+        width : 90%;
+    }
+    #content{
+        width : 90%;
+    }
+    .bodybottom{
+        width : 90%;
+    }
+    @media screen and (max-width : 570px){
+        .logopart{
+            width : 514px;
+        }
+        #content{
+            width: 514px;
+        }
+        .bodybottom{
+            width : 514px;
+        }
+    }
+}
